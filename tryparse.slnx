@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Curso/Curso.csproj" Id="379577c6-458c-4901-878f-81cd94f76848" />
   <Project Path="Edad/Edad.csproj" />
   <Project Path="Precio/Precio.csproj" />
 </Solution>
