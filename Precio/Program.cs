@@ -6,8 +6,17 @@ do
     decimal precio;
     if(decimal.TryParse(Console.ReadLine(), out precio))
     {
-        Console.WriteLine("Entrada no válida. Por favor, ingrese un número.");
-        error++;
-        continue;
+        if(precio<1)
+        {
+            Console.WriteLine("El precio ingresado no es valido. Por favor, ingrese un número valido."); error++; continue;
+        }
+        else
+        {
+            Console.WriteLine("El precio ingresado es: " + precio);
+        }  
+    }
+    else
+    {
+        Console.WriteLine("Entrada no válida. Por favor, ingrese un número."); error++; continue;
     }
 } while (error!=0);
