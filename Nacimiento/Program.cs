@@ -19,5 +19,5 @@ do
     else
     {
         Console.WriteLine("Entrada no válida. Por favor, ingrese una fecha en el formato dd/mm/yyyy."); error++; continue;
-    }
-} while (true);
+    } 
+} while (error!=0);
